@@ -5,4 +5,4 @@ let a = Number(input[0]);
 let b = Number(input[1]);
 
 if (a > b) console.log(a * b)
-else console.log((b / a).toFixed(0))
+else console.log(Math.floor(b / a))
